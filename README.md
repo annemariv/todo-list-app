@@ -1,2 +1,0 @@
-# todo-app
-Laravel project
