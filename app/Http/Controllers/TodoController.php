@@ -6,8 +6,10 @@ use App\Models\Todo;
 
 class TodoController extends Controller
 {
+
     public function index(){
         $todo = Todo::all();
+
         return view('index')->with('todos', $todo);
     }
 
@@ -73,4 +75,5 @@ class TodoController extends Controller
 
         return redirect('/');
     }
+
 }
